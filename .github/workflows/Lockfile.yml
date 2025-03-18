@@ -27,7 +27,7 @@ jobs:
             sh.jbang.dev:443
 
       - name: run maven-lockfile
-        uses: chains-project/maven-lockfile@990939d13a6d03fa9687f0710026311c879cf534
+        uses: chains-project/maven-lockfile@3c6b352972c3d0038c7d54f2aae440a8488eaa1f
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           include-maven-plugins: true
