@@ -1,0 +1,187 @@
+{
+  "artifactId": "maven-lockfile-action-test-project",
+  "groupId": "io.github.logflames",
+  "version": "1.0-SNAPSHOT",
+  "lockFileVersion": 1,
+  "dependencies": [
+    {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-api",
+      "version": "5.11.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "42aa202fc862f76cc5af65b47b1c0b1961cdd79cd2216405a6dfa2bd20b20974",
+      "scope": "test",
+      "selectedVersion": "5.11.0",
+      "included": true,
+      "id": "org.junit.jupiter:junit-jupiter-api:5.11.0",
+      "children": [
+        {
+          "groupId": "org.apiguardian",
+          "artifactId": "apiguardian-api",
+          "version": "1.1.2",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38",
+          "scope": "test",
+          "selectedVersion": "1.1.2",
+          "included": true,
+          "id": "org.apiguardian:apiguardian-api:1.1.2",
+          "parent": "org.junit.jupiter:junit-jupiter-api:5.11.0",
+          "children": []
+        },
+        {
+          "groupId": "org.junit.platform",
+          "artifactId": "junit-platform-commons",
+          "version": "1.11.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "609333a4545f9018eb0c59071efd30663a9e9fdce528121b65a04c27e5fc26a7",
+          "scope": "test",
+          "selectedVersion": "1.11.0",
+          "included": true,
+          "id": "org.junit.platform:junit-platform-commons:1.11.0",
+          "parent": "org.junit.jupiter:junit-jupiter-api:5.11.0",
+          "children": [
+            {
+              "groupId": "org.apiguardian",
+              "artifactId": "apiguardian-api",
+              "version": "1.1.2",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38",
+              "scope": "test",
+              "selectedVersion": "1.1.2",
+              "included": false,
+              "id": "org.apiguardian:apiguardian-api:1.1.2",
+              "parent": "org.junit.platform:junit-platform-commons:1.11.0",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.opentest4j",
+          "artifactId": "opentest4j",
+          "version": "1.3.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "48e2df636cab6563ced64dcdff8abb2355627cb236ef0bf37598682ddf742f1b",
+          "scope": "test",
+          "selectedVersion": "1.3.0",
+          "included": true,
+          "id": "org.opentest4j:opentest4j:1.3.0",
+          "parent": "org.junit.jupiter:junit-jupiter-api:5.11.0",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-params",
+      "version": "5.11.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "92ccae2d72e8cc7ac4d3a912fd1a8fecc5e3040a62ac6c667a07a6f55b8023eb",
+      "scope": "test",
+      "selectedVersion": "5.11.0",
+      "included": true,
+      "id": "org.junit.jupiter:junit-jupiter-params:5.11.0",
+      "children": [
+        {
+          "groupId": "org.apiguardian",
+          "artifactId": "apiguardian-api",
+          "version": "1.1.2",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "b509448ac506d607319f182537f0b35d71007582ec741832a1f111e5b5b70b38",
+          "scope": "test",
+          "selectedVersion": "1.1.2",
+          "included": false,
+          "id": "org.apiguardian:apiguardian-api:1.1.2",
+          "parent": "org.junit.jupiter:junit-jupiter-params:5.11.0",
+          "children": []
+        },
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-api",
+          "version": "5.11.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "42aa202fc862f76cc5af65b47b1c0b1961cdd79cd2216405a6dfa2bd20b20974",
+          "scope": "test",
+          "selectedVersion": "5.11.0",
+          "included": false,
+          "id": "org.junit.jupiter:junit-jupiter-api:5.11.0",
+          "parent": "org.junit.jupiter:junit-jupiter-params:5.11.0",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "mavenPlugins": [
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-clean-plugin",
+      "version": "3.4.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "1e00437fc88814a0790dbc45fe8c482a92b077ad12c3890614f9aee9fb194660"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-install-plugin",
+      "version": "3.1.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "3541e043252daf4e73b9e0e8badcc74a89bd6855419622d7739873fc9324feac"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-surefire-plugin",
+      "version": "3.3.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "6ec9e03a89daf5c82928aba4149de015f29fb4414b663ba463d8ea1fd121d04c"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-compiler-plugin",
+      "version": "3.13.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "6f819947a2a773792dc91d17f906e22113bfb2fefb6b64dec836175715d7402a"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-deploy-plugin",
+      "version": "3.1.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "cb3850b77fb0b4ee9330a22fee7c9a73e8036b8a532363147cdf4986c890d7f9"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-jar-plugin",
+      "version": "3.4.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "e02b19fb8e7ea10baed4878a8c51e4ea21f16ef927efcfb2681a8faea86c7abb"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-resources-plugin",
+      "version": "3.3.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "eb4069c7fe50a313b3f5295ccd214f30402f63971c26f443f7f3e798be8cc2a7"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-site-plugin",
+      "version": "3.12.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "f7bd8e943977ca85022e1252d52575b769d12d49565375550251d2f471aa350c"
+    }
+  ],
+  "metaData": {
+    "environment": {
+      "osName": "Linux",
+      "mavenVersion": "3.9.9",
+      "javaVersion": "17.0.14"
+    },
+    "config": {
+      "includeMavenPlugins": true,
+      "allowValidationFailure": false,
+      "includeEnvironment": true,
+      "reduced": false,
+      "mavenLockfileVersion": "5.4.1",
+      "checksumMode": "maven_local",
+      "checksumAlgorithm": "SHA-256"
+    }
+  }
+}
