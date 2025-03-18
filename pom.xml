@@ -5,7 +5,7 @@
 
   <groupId>io.github.logflames</groupId>
   <artifactId>maven-lockfile-action-test-project</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version>
 
   <name>maven-lockfile-action-test-project</name>
   <!-- FIXME change it to the project's website -->
