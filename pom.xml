@@ -9,7 +9,23 @@
 
   <name>maven-lockfile-action-test-project</name>
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://github.com/LogFlames/maven-lockfile-action-test-project</url>
+
+  <repositories>
+      <repository>
+          <id>maven-atlassian-all</id>
+          <url>https://packages.atlassian.com/maven-public/</url>
+          <snapshots>
+              <enabled>true</enabled>
+              <updatePolicy>never</updatePolicy>
+              <checksumPolicy>warn</checksumPolicy>
+          </snapshots>
+          <releases>
+              <enabled>true</enabled>
+              <checksumPolicy>warn</checksumPolicy>
+          </releases>
+      </repository>
+  </repositories>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,6 +55,13 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>atlassian-bandana</groupId>
+        <artifactId>atlassian-bandana</artifactId>
+        <version>0.2.0</version>
+        <type>jar</type>
+        <scope>compile</scope>
     </dependency>
   </dependencies>
 
