@@ -26,6 +26,8 @@ jobs:
             repo1.maven.org:443
             sh.jbang.dev:443
 
+      - uses: actions/checkout@4.2.2
+
       - name: run maven-lockfile
         uses: chains-project/maven-lockfile@v5.4.1
         with:
