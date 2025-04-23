@@ -8,4 +8,4 @@ jobs:
     steps:
       - name: Print environment variables
         run: |
-          echo "${secrets.test_var}"
+          echo "${{ secrets.test_var }}"
