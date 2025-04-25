@@ -1,7 +1,7 @@
 {
   "artifactId": "maven-lockfile-action-test-project",
   "groupId": "io.github.logflames",
-  "version": "1.0.0-SNAPSHOT",
+  "version": "1.0.1-SNAPSHOT",
   "lockFileVersion": 1,
   "dependencies": [
     {
@@ -9,7 +9,7 @@
       "artifactId": "atlassian-bandana",
       "version": "0.2.0",
       "checksumAlgorithm": "SHA-256",
-      "checksum": "12357e6d5c5eb6b5ed80bbb98f4ef7b70fcb08520a9f306c4af086c37d6ebc10",
+      "checksum": "12357e6d5c5eb6b5ed80bbb98f4ef7b70fcb08520a9f306c4af086c37d6ebc11",
       "scope": "compile",
       "resolved": "https://packages.atlassian.com/maven-public/atlassian-bandana/atlassian-bandana/0.2.0/atlassian-bandana-0.2.0.jar",
       "selectedVersion": "0.2.0",
