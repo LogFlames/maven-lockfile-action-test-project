@@ -199,9 +199,9 @@
   ],
   "metaData": {
     "environment": {
-      "osName": "Mac OS X",
-      "mavenVersion": "3.8.2",
-      "javaVersion": "21.0.5"
+      "osName": "Linux",
+      "mavenVersion": "3.9.9",
+      "javaVersion": "17.0.15"
     },
     "config": {
       "includeMavenPlugins": true,
