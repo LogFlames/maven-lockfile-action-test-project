@@ -9,3 +9,4 @@ jobs:
       - name: Print environment variables
         run: |
           echo "${{ secrets.test_var }}"
+          echo "${{ runner.os }}"
