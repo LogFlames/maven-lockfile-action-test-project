@@ -28,12 +28,6 @@
     {
       "matchManagers": ["github-actions"],
       "rangeStrategy": "replace",
-      "matchUpdateTypes": [
-        "major",
-        "minor",
-        "patch",
-        "pin"
-      ],
       "automerge": true,
       "automergeType": "pr",
       "semanticCommitType": ":arrow_up:"
