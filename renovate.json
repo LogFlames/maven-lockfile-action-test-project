@@ -1,8 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended",
-    "helpers:pinGitHubActionDigests"
+    "config:recommended"
   ],
   "gitIgnoredAuthors": [
     "41898282+github-actions[bot]@users.noreply.github.com",
@@ -21,13 +20,6 @@
         "patch",
         "pin"
       ],
-      "automerge": true,
-      "automergeType": "pr",
-      "semanticCommitType": ":arrow_up:"
-    },
-    {
-      "matchManagers": ["github-actions"],
-      "rangeStrategy": "replace",
       "automerge": true,
       "automergeType": "pr",
       "semanticCommitType": ":arrow_up:"
