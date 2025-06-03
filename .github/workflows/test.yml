@@ -12,3 +12,5 @@ jobs:
         run: |
           echo "${{ runner.os }}"
           echo "${{ runner.arch }}"
+      - name: Test
+        uses: github/codeql-action/init@v3.28.18
