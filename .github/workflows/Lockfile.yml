@@ -29,7 +29,7 @@ jobs:
       - uses: actions/checkout@4.2.2
 
       - name: run maven-lockfile
-        uses: chains-project/maven-lockfile@7dcda2eb0a524064e508ff72813d5954b98c61b5
+        uses: chains-project/maven-lockfile@8ad77c7baef912cda7a3ff0006372088b080b544
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           include-maven-plugins: true
