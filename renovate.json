@@ -1,6 +1,74 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:recommended"
+    "config:recommended",
+    "helpers:pinGitHubActionDigests"
+  ],
+  "gitIgnoredAuthors": [
+    "41898282+github-actions[bot]@users.noreply.github.com",
+    "github-actions[bot]@users.noreply.github.com"
+  ],
+  "digest": {
+    "enabled": false
+  },
+  "semanticCommitType": ":arrow_up:",
+  "semanticCommits": "enabled",
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "pin"
+      ],
+      "automerge": true,
+      "automergeType": "pr",
+      "semanticCommitType": ":arrow_up:"
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "rangeStrategy": "replace",
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch",
+        "pin"
+      ],
+      "automerge": true,
+      "automergeType": "pr",
+      "semanticCommitType": ":arrow_up:"
+    },
+    {
+      "matchUpdateTypes": [
+        "lockFileMaintenance",
+        "pin"
+      ],
+      "semanticCommitType": ":pushpin:",
+      "automerge": true,
+      "automergeType": "pr"
+    },
+    {
+      "matchUpdateTypes": [
+        "rollback"
+      ],
+      "semanticCommitType": ":arrow_down:",
+      "automerge": true,
+      "automergeType": "pr"
+    },
+    {
+      "matchUpdateTypes": [
+        "bump"
+      ],
+      "semanticCommitType": ":bookmark:",
+      "automerge": true,
+      "automergeType": "pr"
+    },
+    {
+      "enabled": false,
+      "matchPackageNames": [
+        "/org.apache.maven:/"
+      ]
+    }
   ]
 }
+
