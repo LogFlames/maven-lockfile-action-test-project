@@ -150,6 +150,14 @@
     },
     {
       "groupId": "org.apache.maven.plugins",
+      "artifactId": "maven-deploy-plugin",
+      "version": "3.1.4",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "3be1d369703884116300b57abda1c46b8c712faf9a3778960d21dd27af73b650",
+      "resolved": "https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.4/maven-deploy-plugin-3.1.4.jar"
+    },
+    {
+      "groupId": "org.apache.maven.plugins",
       "artifactId": "maven-surefire-plugin",
       "version": "3.3.0",
       "checksumAlgorithm": "SHA-256",
@@ -163,14 +171,6 @@
       "checksumAlgorithm": "SHA-256",
       "checksum": "6f819947a2a773792dc91d17f906e22113bfb2fefb6b64dec836175715d7402a",
       "resolved": "https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.13.0/maven-compiler-plugin-3.13.0.jar"
-    },
-    {
-      "groupId": "org.apache.maven.plugins",
-      "artifactId": "maven-deploy-plugin",
-      "version": "3.1.2",
-      "checksumAlgorithm": "SHA-256",
-      "checksum": "cb3850b77fb0b4ee9330a22fee7c9a73e8036b8a532363147cdf4986c890d7f9",
-      "resolved": "https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-deploy-plugin/3.1.2/maven-deploy-plugin-3.1.2.jar"
     },
     {
       "groupId": "org.apache.maven.plugins",
