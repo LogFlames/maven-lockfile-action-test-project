@@ -109,5 +109,24 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <plugins>
+        <plugin>
+            <groupId>io.github.chains-project</groupId>
+            <artifactId>maven-lockfile</artifactId>
+            <version>5.5.4-SNAPSHOT</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>generate</goal>
+                    </goals>
+                    </execution>
+                </executions>
+            <configuration>
+                <checksumMode>remote</checksumMode>
+                <checksumAlgorithm>SHA-256</checksumAlgorithm>
+                <includeMavenPlugins>true</includeMavenPlugins>
+            </configuration>
+        </plugin>
+    </plugins>
   </build>
 </project>

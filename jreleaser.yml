@@ -1,0 +1,31 @@
+project:
+  name: maven-lockfile-action-test-project
+  description: A project to test releases, actions etc for maven-lockfile
+  longDescription: This is a project to test releases, actions etc for maven-lockfile.
+  authors:
+    - Elias Lundell
+  license: MIT
+  links:
+    homepage: https://github.com/LogFlames/maven-lockfile-action-test-project
+  languages:
+    java:
+      groupId: io.github.logflames
+      version: "11"
+  inceptionYear: "2024"
+
+release:
+  github:
+    owner: LogFlames
+    changelog:
+      formatted: ALWAYS
+      preset: 'gitmoji'
+      format: '- {{commitShortHash}} {{commitTitle}}'
+      contributors:
+        format: '- {{contributorName}} ({{contributorUsernameAsLink}})'
+      hide:
+        contributors:
+          - '[bot]'
+          - 'GitHub'
+signing:
+  active: ALWAYS
+  armored: true

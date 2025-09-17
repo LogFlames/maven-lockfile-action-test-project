@@ -1,0 +1,9 @@
+version 1
+
+actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 g2V9DAwkHBbZHaTOx4M2g/r9wI49KupzyARL47t/rEQ=
+actions/checkout@v4.2.2 g2V9DAwkHBbZHaTOx4M2g/r9wI49KupzyARL47t/rEQ=
+actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00 cKZQn6p38RgADB4MCMpbFp94sScgm/u3B7rEDB9QS5I=
+chains-project/maven-lockfile@7dcda2eb0a524064e508ff72813d5954b98c61b5 ajTqL2HqDSFuZUGeVudLpXYjbXbqjeBYVoekrHNPeNc=
+github/codeql-action@v3.28.18 4gaEho7CgRQ2agaVQ08Rey3Nb10JTZZSIlyaTIuWFp0=
+stefanzweifel/git-auto-commit-action@b863ae1933cb653a53c021fe36dbb774e1fb9403 n9EaBzCcmLizV1ET0gheXnemmtcZgEvXYpZ3X2Lg7so=
+step-security/harden-runner@0634a2670c59f64b4a01f0f96f84700a4088b9f0 nNlOSHE3ozt23Wu9iovaeOgHnTwwx/tIwccWM/cHJmI=
