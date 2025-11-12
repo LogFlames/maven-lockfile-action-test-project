@@ -11,3 +11,7 @@ jobs:
         run: |
           echo "${{ runner.os }}"
           echo "${{ runner.arch }}"
+      - name: Fail workflow
+        run: |
+          echo "This is a test workflow"
+          exit 1
