@@ -7,5 +7,5 @@ on:
 
 jobs:
   reuse-test:
-    uses: "LogFlames/reusable-workflow-test/blob/main/.github/workflows/test-action.yml@main"
+    uses: "LogFlames/reusable-workflow-test/.github/workflows/test-action.yml@main"
 
