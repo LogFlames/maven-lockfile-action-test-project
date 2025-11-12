@@ -1,0 +1,11 @@
+name: Reusable Test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  reuse-test:
+    uses: "LogFlames/reusable-workflow-test/blob/main/.github/workflows/test-action.yml@main"
+

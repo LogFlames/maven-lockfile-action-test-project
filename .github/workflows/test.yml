@@ -1,5 +1,7 @@
 on:
-  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
 
 jobs:
   test:
@@ -12,5 +14,3 @@ jobs:
         run: |
           echo "${{ runner.os }}"
           echo "${{ runner.arch }}"
-      - name: Test
-        uses: github/codeql-action/init@v3.28.19
