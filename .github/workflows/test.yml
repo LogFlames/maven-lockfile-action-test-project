@@ -4,6 +4,7 @@ on:
       - main
 
 jobs:
+  runs-on: ubuntu-latest
   test:
     steps:
       - name: Print environment variables
