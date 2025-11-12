@@ -12,20 +12,14 @@ project:
       groupId: io.github.logflames
       version: "11"
   inceptionYear: "2024"
+  version: 1.0.1
 
 release:
   github:
     owner: LogFlames
-    changelog:
-      formatted: ALWAYS
-      preset: 'gitmoji'
-      format: '- {{commitShortHash}} {{commitTitle}}'
-      contributors:
-        format: '- {{contributorName}} ({{contributorUsernameAsLink}})'
-      hide:
-        contributors:
-          - '[bot]'
-          - 'GitHub'
-signing:
+    immutableRelease: true
+    overwrite: true
+files:
   active: ALWAYS
-  armored: true
+  globs:
+    - pattern: pom.xml

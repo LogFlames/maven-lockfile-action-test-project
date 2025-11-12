@@ -1,12 +1,7 @@
 {
   "artifactId": "maven-lockfile-action-test-project",
   "groupId": "io.github.logflames",
-  "version": "1.0.2-SNAPSHOT",
-  "pom": {
-    "path": "pom.xml",
-    "checksumAlgorithm": "SHA-256",
-    "checksum": "be5b4e4ab64edb7dcb31c9e2926fdde2a6700584b9842b8f453e08b31a1f4536"
-  },
+  "version": "1.0.1-SNAPSHOT",
   "lockFileVersion": 1,
   "dependencies": [
     {
@@ -213,16 +208,15 @@
   "metaData": {
     "environment": {
       "osName": "Mac OS X",
-      "mavenVersion": "3.8.2",
-      "javaVersion": "21.0.5"
+      "mavenVersion": "3.9.11",
+      "javaVersion": "21.0.8"
     },
     "config": {
       "includeMavenPlugins": true,
       "allowValidationFailure": false,
-      "failValidateOnPomChecksumMismatch": true,
       "includeEnvironment": true,
       "reduced": false,
-      "mavenLockfileVersion": "5.6.1-SNAPSHOT",
+      "mavenLockfileVersion": "5.9.1-SNAPSHOT",
       "checksumMode": "remote",
       "checksumAlgorithm": "SHA-256"
     }

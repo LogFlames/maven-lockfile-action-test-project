@@ -13,7 +13,20 @@
 
   <repositories>
       <repository>
-          <id>maven-atlassian-all</id>
+          <id>maven-atlassian-abcd</id>
+          <url>https://packages.atlassian.com/maven-public/</url>
+          <snapshots>
+              <enabled>true</enabled>
+              <updatePolicy>never</updatePolicy>
+              <checksumPolicy>warn</checksumPolicy>
+          </snapshots>
+          <releases>
+              <enabled>true</enabled>
+              <checksumPolicy>warn</checksumPolicy>
+          </releases>
+      </repository>
+      <repository>
+          <id>maven-atlassian-efgh</id>
           <url>https://packages.atlassian.com/maven-public/</url>
           <snapshots>
               <enabled>true</enabled>
