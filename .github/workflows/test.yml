@@ -4,8 +4,8 @@ on:
       - main
 
 jobs:
-  runs-on: ubuntu-latest
   test:
+    runs-on: ubuntu-latest
     steps:
       - name: Print environment variables
         run: |
