@@ -13,4 +13,4 @@ jobs:
           echo "${{ runner.os }}"
           echo "${{ runner.arch }}"
       - name: Test
-        uses: github/codeql-action/init@v3.28.19
+        uses: github/codeql-action/init@v3.31.2
